@@ -1,2 +1,41 @@
 
 /* Your CSS Code here. */
+ body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+    .size-chart {
+      max-width: 700px;
+      margin: auto;
+      border-collapse: collapse;
+      width: 100%;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    thead {
+      background-color: #930000;
+      color: #fff;
+    }
+    th, td {
+      padding: 12px;
+      text-align: center;
+      border: 1px solid #ccc;
+    }
+    tbody tr:nth-child(1) {
+      background-color: #df0012;
+		color: white;
+    }
+    tbody tr:nth-child(2) {
+      background-color: #8a717a;
+		color: white;
+    }
+    tbody tr:nth-child(3) {
+      background-color: #332c2f;
+		color: white;
+    }
+    caption {
+      caption-side: top;
+      font-size: 1.5em;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
