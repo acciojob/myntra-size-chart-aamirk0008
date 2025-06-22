@@ -19,7 +19,7 @@
     th, td {
       padding: 12px;
       text-align: center;
-      border: 1px solid #ccc;
+      border: 2px solid black;
     }
     tbody tr:nth-child(1) {
       background-color: #df0012;
