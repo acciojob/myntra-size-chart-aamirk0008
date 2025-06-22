@@ -1,34 +1,38 @@
 
 /* Your CSS Code here. */
- body {
+    body {
       font-family: Arial, sans-serif;
-      background: #f9f9f9;
+      background: #f0f0f0;
+      padding: 20px;
       display: flex;
       justify-content: center;
-      padding: 20px;
     }
+
     table {
       border-collapse: collapse;
       width: 100%;
       max-width: 800px;
-      background-color: white;
+      background-color: #fff;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
+
     caption {
-      caption-side: top;
       font-size: 1.5em;
-      margin-bottom: 10px;
       font-weight: bold;
+      margin-bottom: 10px;
     }
-    th, td {
-      border: 1px solid #ccc;
-      padding: 12px;
-      text-align: center;
-    }
+
     thead {
       background-color: #333;
-      color: white;
+      color: #fff;
     }
+
+    th, td {
+      padding: 12px;
+      text-align: center;
+      border: 1px solid #ccc;
+    }
+
     tbody tr:nth-child(1) {
       background-color: #df0012;
 		color: white;
@@ -40,10 +44,4 @@
     tbody tr:nth-child(3) {
       background-color: #332c2f;
 		color: white;
-    }
-    caption {
-      caption-side: top;
-      font-size: 1.5em;
-      margin-bottom: 10px;
-      font-weight: bold;
     }
